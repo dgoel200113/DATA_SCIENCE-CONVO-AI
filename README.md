@@ -3,6 +3,8 @@ Project Name: House Prices: Advanced Regression Techniques
 
 The main aim of this project is to predict the house price based on various features using the RAPIDS library
 
+Link to Kaggle Notebook: https://www.kaggle.com/dhruvgoel200113/dhruvgoel-102083029-ds-assign1
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # About the dataset
 
