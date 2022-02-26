@@ -179,13 +179,13 @@ I have done the following things in my project:
 
 3) Temporal Variables: From the Dataset we have 4 year variables. We have to extract information from the datetime variables like no of years or no of days. The temporal                                variables were: ['YearBuilt', 'YearRemodAdd', 'GarageYrBlt', 'YrSold']. I subtracted the features from the date sold to find out the number of years that                        each feature depicts.
 
-4) Applying Log tranformation to conintous features: This was done to ensure that the data follows gaussian distribution which is better for the model
+4) Applying Log tranformation to continous features: This was done to ensure that the data follows gaussian distribution which is better for the model
 
-5) MinMaxScaler: I used the minmaxscaler to normalize the data however the accurary decreased so i decided to opt out of it, couldnt understand the reason behind it.
+5) MinMaxScaler: I used the minmaxscaler to normalize the data however the accurary decreased so I decided to opt out of it, couldnt understand the reason behind it.
 
-6) Encoding: Since most of the features had a large number of unique values i used a label encoder instead of the one-hot encoder. if i had used a one-hot encoder the number of              parameters would have increased dramatically and created sparse data.
+6) Encoding: Since most of the features had a large number of unique values I used a label encoder instead of the one-hot encoder. if I had used a one-hot encoder the number of              parameters would have increased dramatically and created sparse data.
 
-7) Removing highly correlated features: There was an error occuring with the rapids library while trying to display the heatmaps, so i refrenced another notebook to identify the                                         correlated features and removed them manually.  
+7) Removing highly correlated features: There was an error occuring with the rapids library while trying to display the heatmaps, so I referred another notebook to identify the                                         correlated features and removed them manually.  
 
 8) Train-Test Split: Since the testing data didnt have a saleprice column I used some of the training data to evaluate my model.
 
